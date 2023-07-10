@@ -38,5 +38,5 @@ molecules in water from experiments and alchemical free energy calculations.
 
 [![image2.png](https://i.postimg.cc/vTRQ5THN/image.png)](https://postimg.cc/tZ5QjX63)
 
-We chose the model_6 as the best one beacause it brought better averge validation score too.
+We chose the model_6 as the best one beacause it brought better average validation score too.
 
