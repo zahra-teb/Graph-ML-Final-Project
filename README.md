@@ -10,7 +10,7 @@ In this project we attempted to use **Graph Neural Networks** for **Classificati
 
 Three features are extracted and utilized for each molecule: atom, bond, and molecule-level features. All features are computed rapidly in silico using the open-source package RDKit.
 
-The initial atom and bond features are listed in the tables below. All features in these two tables are one-hot encodings except for atomic mass, a real number scaled to be on the same order of magnitude.
+The initial atom and bond features are listed in the tables below. All features in these two tables are one-hot encodings except for atomic mass, an actual number scaled to be on the same order of magnitude.
 
 [![1.png](https://i.postimg.cc/gr9pRVf1/1.png)](https://postimg.cc/GTj6ny3j)
 
@@ -24,6 +24,7 @@ Graph classification is the problem of determining the category or label of a gr
 We used the **BBBP** dataset for the classification task. BBBP (Blood–brain barrier penetration) dataset comes from a recent study on the modeling and prediction of barrier permeability. This dataset records whether a compound is permeable to the blood-brain barrier.
 
 ### Results
+We used the ROC-AUC metric to compute the score.
 
 [![image.png](https://i.postimg.cc/02SBWMM5/image.png)](https://postimg.cc/RNMdq0L2)
 
@@ -35,6 +36,7 @@ We used the FreeSolv dataset for the regression task. FreeSolv is selected from 
 molecules in water from experiments and alchemical free energy calculations.
 
 ### Results
+We used the RMSE metric to compute the score.
 
 [![image2.png](https://i.postimg.cc/vTRQ5THN/image.png)](https://postimg.cc/tZ5QjX63)
 
