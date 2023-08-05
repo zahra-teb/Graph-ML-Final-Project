@@ -28,7 +28,7 @@ We used the ROC-AUC metric to compute the score.
 
 [![image.png](https://i.postimg.cc/02SBWMM5/image.png)](https://postimg.cc/RNMdq0L2)
 
-# Graph Regression
+## Graph Regression
 
 Regression of graphs is similar to their classification and the difference is in the loss function and the performance metric. 
 
